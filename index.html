@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_44851894dbf7008d00eb9c7877fb6456 {
+                #map_60a81ed4ec3de045410d7826cf5c789a {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -54,14 +54,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_44851894dbf7008d00eb9c7877fb6456" ></div>
+            <div class="folium-map" id="map_60a81ed4ec3de045410d7826cf5c789a" ></div>
         
 </body>
 <script>
     
     
-            var map_44851894dbf7008d00eb9c7877fb6456 = L.map(
-                "map_44851894dbf7008d00eb9c7877fb6456",
+            var map_60a81ed4ec3de045410d7826cf5c789a = L.map(
+                "map_60a81ed4ec3de045410d7826cf5c789a",
                 {
                     center: [10.682, -73.327],
                     crs: L.CRS.EPSG3857,
@@ -78,7 +78,7 @@
 
         
     
-            var tile_layer_5adbf8689b9db96617af6bfffcd9ed61 = L.tileLayer(
+            var tile_layer_e9e2433688fccb30736625182fbe1beb = L.tileLayer(
                 "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
                 {
   "minZoom": 0,
@@ -95,11 +95,11 @@
             );
         
     
-            tile_layer_5adbf8689b9db96617af6bfffcd9ed61.addTo(map_44851894dbf7008d00eb9c7877fb6456);
+            tile_layer_e9e2433688fccb30736625182fbe1beb.addTo(map_60a81ed4ec3de045410d7826cf5c789a);
         
     
-            var tile_layer_035e7dd435f31c35484018bc18ea8a82 = L.tileLayer(
-                "https://earthengine.googleapis.com/v1/projects/finca-489704/maps/2834d2092087f6c8774c76ed464c32ba-59340edc31a520c4f5a3a0df8057d791/tiles/{z}/{x}/{y}",
+            var tile_layer_032b085dbef101a300f9fd32d8c3d2d0 = L.tileLayer(
+                "https://earthengine.googleapis.com/v1/projects/finca-489704/maps/2834d2092087f6c8774c76ed464c32ba-2327191cbf059bc9a2f02f0a3e72eea7/tiles/{z}/{x}/{y}",
                 {
   "minZoom": 0,
   "maxZoom": 18,
@@ -115,11 +115,11 @@
             );
         
     
-            tile_layer_035e7dd435f31c35484018bc18ea8a82.addTo(map_44851894dbf7008d00eb9c7877fb6456);
+            tile_layer_032b085dbef101a300f9fd32d8c3d2d0.addTo(map_60a81ed4ec3de045410d7826cf5c789a);
         
     
-            var tile_layer_989d2e68dbbd437cce773f18b4af0731 = L.tileLayer(
-                "https://earthengine.googleapis.com/v1/projects/finca-489704/maps/b84164e527296f153a2888edf615c969-aa9a40e790b5b86010b24374484e6c5e/tiles/{z}/{x}/{y}",
+            var tile_layer_cce4d194cb5567b54c8dee62678ac56c = L.tileLayer(
+                "https://earthengine.googleapis.com/v1/projects/finca-489704/maps/b7f71fb8abe47a34b5632329624b0097-440f6222dc77f787a8336d9688271d8e/tiles/{z}/{x}/{y}",
                 {
   "minZoom": 0,
   "maxZoom": 18,
@@ -135,17 +135,17 @@
             );
         
     
-            tile_layer_989d2e68dbbd437cce773f18b4af0731.addTo(map_44851894dbf7008d00eb9c7877fb6456);
+            tile_layer_cce4d194cb5567b54c8dee62678ac56c.addTo(map_60a81ed4ec3de045410d7826cf5c789a);
         
     
-            var marker_54abb7fdbb56bdc7479576ab884f0c0a = L.marker(
+            var marker_f405389233b82fd22cf555cd0e439dd6 = L.marker(
                 [10.682, -73.327],
                 {
 }
-            ).addTo(map_44851894dbf7008d00eb9c7877fb6456);
+            ).addTo(map_60a81ed4ec3de045410d7826cf5c789a);
         
     
-            var icon_911cd23f04da628e9de2e0f806499650 = L.AwesomeMarkers.icon(
+            var icon_84399f0648c6c0b72d2dab83b7bf4bba = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -156,44 +156,44 @@
             );
         
     
-        var popup_ddce82ea99f9fa6cca65dd5bbc6e8421 = L.popup({
+        var popup_00f51de14472626d72d1b68b0b6d5b08 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_b8642437a9c7368ce1539298a0cbd864 = $(`<div id="html_b8642437a9c7368ce1539298a0cbd864" style="width: 100.0%; height: 100.0%;">Ubicación Finca</div>`)[0];
-                popup_ddce82ea99f9fa6cca65dd5bbc6e8421.setContent(html_b8642437a9c7368ce1539298a0cbd864);
+                var html_a1d442441cef3dc422925dcedb47d3ad = $(`<div id="html_a1d442441cef3dc422925dcedb47d3ad" style="width: 100.0%; height: 100.0%;">Ubicación Finca</div>`)[0];
+                popup_00f51de14472626d72d1b68b0b6d5b08.setContent(html_a1d442441cef3dc422925dcedb47d3ad);
             
         
 
-        marker_54abb7fdbb56bdc7479576ab884f0c0a.bindPopup(popup_ddce82ea99f9fa6cca65dd5bbc6e8421)
+        marker_f405389233b82fd22cf555cd0e439dd6.bindPopup(popup_00f51de14472626d72d1b68b0b6d5b08)
         ;
 
         
     
     
-                marker_54abb7fdbb56bdc7479576ab884f0c0a.setIcon(icon_911cd23f04da628e9de2e0f806499650);
+                marker_f405389233b82fd22cf555cd0e439dd6.setIcon(icon_84399f0648c6c0b72d2dab83b7bf4bba);
             
     
-            var layer_control_17b15e3ccb6cd017a030e98d9161b09f_layers = {
+            var layer_control_c3cee32666d8a8bf8c1c9624ca30246e_layers = {
                 base_layers : {
-                    "https://server.arcgisonline.com/arcgis/rest/services/world_imagery/mapserver/tile/{z}/{y}/{x}" : tile_layer_5adbf8689b9db96617af6bfffcd9ed61,
+                    "https://server.arcgisonline.com/arcgis/rest/services/world_imagery/mapserver/tile/{z}/{y}/{x}" : tile_layer_e9e2433688fccb30736625182fbe1beb,
                 },
                 overlays :  {
-                    "Elevaci\u00f3n del Terreno" : tile_layer_035e7dd435f31c35484018bc18ea8a82,
-                    "\u00cdndice de Vegetaci\u00f3n (NDVI)" : tile_layer_989d2e68dbbd437cce773f18b4af0731,
+                    "Elevaci\u00f3n del Terreno" : tile_layer_032b085dbef101a300f9fd32d8c3d2d0,
+                    "\u00cdndice de Vegetaci\u00f3n (NDVI)" : tile_layer_cce4d194cb5567b54c8dee62678ac56c,
                 },
             };
-            let layer_control_17b15e3ccb6cd017a030e98d9161b09f = L.control.layers(
-                layer_control_17b15e3ccb6cd017a030e98d9161b09f_layers.base_layers,
-                layer_control_17b15e3ccb6cd017a030e98d9161b09f_layers.overlays,
+            let layer_control_c3cee32666d8a8bf8c1c9624ca30246e = L.control.layers(
+                layer_control_c3cee32666d8a8bf8c1c9624ca30246e_layers.base_layers,
+                layer_control_c3cee32666d8a8bf8c1c9624ca30246e_layers.overlays,
                 {
   "position": "topright",
   "collapsed": true,
   "autoZIndex": true,
 }
-            ).addTo(map_44851894dbf7008d00eb9c7877fb6456);
+            ).addTo(map_60a81ed4ec3de045410d7826cf5c789a);
 
         
 </script>
